@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+
+        body {background-color: orange;}
+
+        img {
+            border: 2px solid #540;
+        }
+
+        #rcorners1 {
+            border-radius: 10px;
+            border: 2px solid #540;
+        }
+        #rcorners2 {
+            border-radius: 15px;
+            border: 2px solid #540;
+        }
+
+
+        /* Create two columns/boxes that float next to each other */
+        nav {
+            float: left;
+
+            padding: 60px;
+            padding-top: 20px;
+        }
+
+        /* Style the list inside the menu */
+        nav ul {
+            list-style-type: none;
+            padding: 0px;
+            padding-right: 30px;
+            padding-left: 30px;
+
+        }
+
+        /* Clear floats after the columns */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        h.one{
+
+            font-family: "Arial Black", Arial,serif;
+        }
+
+        p.one {
+
+            border-style: solid;
+            border-width: 2px;
+            background-color: palegreen;
+            padding-top: 5px;
+            padding-right: 10px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            height: 60px;
+            width: 50%;
+        }
+
+        p.two {
+            border-style: solid;
+            border-width: 2px;
+            background-color: paleturquoise;
+            padding-top: 5px;
+            padding-right: 10px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            height: 110px;
+            width: 50%;
+        }
+
+        p.three {
+            border-style: solid;
+            border-width: 2px;
+            background-color: palegoldenrod;
+            padding-top: 5px;
+            padding-right: 10px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            height: 60px;
+            width: 50%;
+            font-family: "sans-serif";
+        }
+
+
+    </style>
+</head>
+
+
+
+<body>
+
+<h1 class="one"><b>Christopher S Sutherland</b></h1>
+<p class="one">Hi! Mit navn er Chris. I am an American living in Tønder, Denmark.
+    I have lived here since 2016.</p>
+
+<section>
+    <nav>
+        <ul>
+<p> This is not me.</p>
+<img id="rcorners1" src="https://img.freepik.com/free-photo/puppy-that-is-walking-snow_1340-37228.jpg" alt="cute little dog" width="92" height="69">
+        </ul>
+    </nav>
+
+<p> This is me with wild <br>mushrooms.</p>
+<img id="rcorners2" src="IMG_4482_Cropped.jpg"alt="me with mushrooms" width="120" height="98">
+</section>
+
+<p>(I wish there weren't so much space above here, but I can't figure out how to get rid of it.)</p>
+
+<h2>Some things I'm interested in...</h2>
+<p class="two"><b>Music</b> - I play the violin and viola, although I don't have any time for it lately.
+<br>
+    <br><b>Cooking</b> - I like to cook, especially Asian food and Asian inspired food.
+<br>
+    <br><b>Foraging</b> - I like to gather food from nature such as wild fruit, wild mushrooms and oysters.</p>
+
+
+<h2>Work etc...</h2>
+<p class="three">I currently work and Hydro Extrusion Tønder. I used to also work at
+    Tønder Kulturskole as a violin teacher but had to stop in order to start the
+    Datamatikker program at EASV.
+</p>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
